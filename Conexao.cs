@@ -19,7 +19,7 @@ namespace TesteConexaoBanco
         //    public static string strCON = $"server ={Servidor};" +
         //    $"database={Banco};User Id ={Usuario}" + $"password ={Senha}";
 
-       public static string strCON = "Server =localhost;database=bd_teste; User id= root;pwd=felipe123";
+       public static string strCON = "Server =localhost;database=bd_teste; User id= root;pwd=cursoads";
       
         bool Retorno_conexao = false;
        

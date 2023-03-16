@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.Btn_cliente = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btn_produto = new System.Windows.Forms.Button();
+            this.btn_fornecedor = new System.Windows.Forms.Button();
             this.Painel_menu = new System.Windows.Forms.Panel();
             this.Painel_tela_principal = new System.Windows.Forms.Panel();
             this.Painel_menu.SuspendLayout();
@@ -50,37 +50,38 @@
             this.Btn_cliente.UseVisualStyleBackColor = false;
             this.Btn_cliente.Click += new System.EventHandler(this.Btn_cliente_Click);
             // 
-            // button2
+            // btn_produto
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft New Tai Lue", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.Control;
-            this.button2.Location = new System.Drawing.Point(12, 203);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(152, 49);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_produto.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btn_produto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_produto.Font = new System.Drawing.Font("Microsoft New Tai Lue", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_produto.ForeColor = System.Drawing.SystemColors.Control;
+            this.btn_produto.Location = new System.Drawing.Point(12, 203);
+            this.btn_produto.Name = "btn_produto";
+            this.btn_produto.Size = new System.Drawing.Size(152, 49);
+            this.btn_produto.TabIndex = 1;
+            this.btn_produto.Text = "Produto";
+            this.btn_produto.UseVisualStyleBackColor = false;
+            this.btn_produto.Click += new System.EventHandler(this.btn_produto_Click);
             // 
-            // button3
+            // btn_fornecedor
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft New Tai Lue", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.Control;
-            this.button3.Location = new System.Drawing.Point(12, 332);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(152, 49);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btn_fornecedor.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btn_fornecedor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_fornecedor.Font = new System.Drawing.Font("Microsoft New Tai Lue", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_fornecedor.ForeColor = System.Drawing.SystemColors.Control;
+            this.btn_fornecedor.Location = new System.Drawing.Point(12, 332);
+            this.btn_fornecedor.Name = "btn_fornecedor";
+            this.btn_fornecedor.Size = new System.Drawing.Size(152, 49);
+            this.btn_fornecedor.TabIndex = 2;
+            this.btn_fornecedor.Text = "Fornecdor";
+            this.btn_fornecedor.UseVisualStyleBackColor = false;
             // 
             // Painel_menu
             // 
             this.Painel_menu.Controls.Add(this.Btn_cliente);
-            this.Painel_menu.Controls.Add(this.button3);
-            this.Painel_menu.Controls.Add(this.button2);
+            this.Painel_menu.Controls.Add(this.btn_fornecedor);
+            this.Painel_menu.Controls.Add(this.btn_produto);
             this.Painel_menu.Dock = System.Windows.Forms.DockStyle.Left;
             this.Painel_menu.Location = new System.Drawing.Point(0, 0);
             this.Painel_menu.Name = "Painel_menu";
@@ -112,8 +113,8 @@
         #endregion
 
         private System.Windows.Forms.Button Btn_cliente;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btn_produto;
+        private System.Windows.Forms.Button btn_fornecedor;
         private System.Windows.Forms.Panel Painel_menu;
         private System.Windows.Forms.Panel Painel_tela_principal;
     }

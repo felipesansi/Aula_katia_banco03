@@ -33,5 +33,10 @@ namespace TesteConexaoBanco
             Abrir_janela(new Tela_Cliente());
             
         }
+
+        private void btn_produto_Click(object sender, EventArgs e)
+        {
+            Abrir_janela(new Tela_produto());
+        }
     }
 }

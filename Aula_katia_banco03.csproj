@@ -96,6 +96,12 @@
     <Compile Include="Tela_Principal.Designer.cs">
       <DependentUpon>Tela_Principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tela_produto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela_produto.Designer.cs">
+      <DependentUpon>Tela_produto.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -110,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Tela_Principal.resx">
       <DependentUpon>Tela_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela_produto.resx">
+      <DependentUpon>Tela_produto.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

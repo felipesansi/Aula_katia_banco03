@@ -19,7 +19,7 @@ namespace TesteConexaoBanco
         //    public static string strCON = $"server ={Servidor};" +
         //    $"database={Banco};User Id ={Usuario}" + $"password ={Senha}";
 
-       public static string strCON = "Server =localhost;database=bd_teste; User id= root;pwd=cursoads";
+       public static string strCON = "Server =localhost;database=bd_teste; User id= root;pwd=felipe123";
       
         bool Retorno_conexao = false;
        
@@ -34,7 +34,7 @@ namespace TesteConexaoBanco
             catch (Exception ex)
             {
 
-             MessageBox.Show(ex.Message);
+             MessageBox.Show("Erro no banco de dados"+ex.Message);
             }
             return Retorno_conexao;
 
@@ -75,11 +75,28 @@ namespace TesteConexaoBanco
         }
         public DataTable retorno_tabela(string sql)
         {
-            MySqlCommand cmd = new MySqlCommand(sql, conexao_banco);
-            MySqlDataAdapter da = new MySqlDataAdapter(cmd);
-            da.SelectCommand = cmd;
+            Conectar_banco();
             DataTable data = new DataTable();
-            da.Fill(data);
+            try
+            {
+
+                MySqlCommand cmd = new MySqlCommand(sql, conexao_banco);
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                da.SelectCommand = cmd;
+
+                da.Fill(data);
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+            finally 
+            {
+                Desconectar_banco();
+            }
+           
             return data;
         }
     }

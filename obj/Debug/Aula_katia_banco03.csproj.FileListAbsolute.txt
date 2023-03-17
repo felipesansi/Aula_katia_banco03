@@ -33,3 +33,38 @@ C:\Users\curso.ads2\Source\Repos\Aula_katia_banco03\obj\Debug\Aula_katia_banco03
 C:\Users\curso.ads2\Source\Repos\Aula_katia_banco03\obj\Debug\TesteConexaoBanco.exe
 C:\Users\curso.ads2\Source\Repos\Aula_katia_banco03\obj\Debug\TesteConexaoBanco.pdb
 C:\Users\curso.ads2\Source\Repos\Aula_katia_banco03\obj\Debug\TesteConexaoBanco.Tela_produto.resources
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\TesteConexaoBanco.exe.config
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\TesteConexaoBanco.exe
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\TesteConexaoBanco.pdb
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\Google.Protobuf.dll
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\MySql.Data.dll
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\System.Buffers.dll
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\System.Memory.dll
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\Google.Protobuf.pdb
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\Google.Protobuf.xml
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\MySql.Data.xml
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\System.Buffers.xml
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\System.Memory.xml
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\obj\Debug\Aula_katia_banco03.csproj.AssemblyReference.cache
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\obj\Debug\Aula_katia_banco03.csproj.SuggestedBindingRedirects.cache
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\obj\Debug\TesteConexaoBanco.Properties.Resources.resources
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\obj\Debug\TesteConexaoBanco.Tela_Cliente.resources
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\obj\Debug\TesteConexaoBanco.Tela_Principal.resources
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\obj\Debug\TesteConexaoBanco.Tela_produto.resources
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\obj\Debug\Aula_katia_banco03.csproj.GenerateResource.cache
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\obj\Debug\Aula_katia_banco03.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\obj\Debug\Aula_katia_banco03.csproj.CopyComplete
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\obj\Debug\TesteConexaoBanco.exe
+C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\obj\Debug\TesteConexaoBanco.pdb

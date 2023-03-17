@@ -52,6 +52,7 @@
             this.text_codigo_prod.Name = "text_codigo_prod";
             this.text_codigo_prod.Size = new System.Drawing.Size(94, 26);
             this.text_codigo_prod.TabIndex = 9;
+            this.text_codigo_prod.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_codigo_prod_KeyPress);
             // 
             // label4
             // 

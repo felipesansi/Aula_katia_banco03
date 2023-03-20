@@ -29,8 +29,17 @@ namespace TesteConexaoBanco
         private void Carregar_tabela()
         {
             Dgv_dados.DataSource = null;
-            DataTable dados = conexao.retorno_tabela("select * from tb_categoria");
-            Dgv_dados.DataSource= dados;
+            DataTable dados = conexao.retorno_tabela("select * from tb_produto");
+           
+            if (dados.Rows[0]["prod_codigo"].ToString() != "")
+            {
+                Dgv_dados.DataSource = dados;
+            }
+            else
+            {
+                MessageBox.Show("Não existe produtos cadastrados","Mensagem de erro",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
+
         }
         private void Tela_produto_Load(object sender, EventArgs e)
         {
@@ -40,8 +49,8 @@ namespace TesteConexaoBanco
 
         private void btn_atualizar_prod_Click(object sender, EventArgs e)
         {
-            string atualizar   = "update tb_produto set prod_nome='" + text_nome_prod.Text + "',prod_decricao='" + text_descricao_prod.Text + "',prod_categoria=" + Cbx_descricao_prod.SelectedValue +
-                ",prod_valor=" + text_valor_prod.Text+"where prod_codigo ="+text_codigo_prod.Text;
+            string atualizar = "update tb_produto set prod_nome ='" + text_nome_prod.Text + "' , prod_decricao= '" + text_descricao_prod.Text + "',prod_categoria =" + Cbx_descricao_prod.SelectedValue + ",prod_valor=" + text_valor_prod.Text;
+
             if (conexao.Executar_sql(atualizar))
             {
                 MessageBox.Show("Dados do produto " + text_codigo_prod.Text + " atualizado com sucesso!", "Mesagem de sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -54,20 +63,32 @@ namespace TesteConexaoBanco
 
         private void Btn_excluir_prod_Click(object sender, EventArgs e)
         {
-            string sql = "delete from tb_produto where prod_codigo= "+text_codigo_prod.Text+ ";";
-            if (text_codigo_prod.Text !="")
-            {
-                if (conexao.Executar_sql(sql))
-                {
 
-                    MessageBox.Show("Os dados foram excluido com sucesso!", "Mensagem de sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            string sql = "delete from tb_produto where prod_codigo= "+text_codigo_prod.Text+ ";";
+            if (text_codigo_prod.Text != "")
+            {
+              DialogResult =  MessageBox.Show("Deseja reamente excluir este produto?","Pergunta",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
+            
+                if ( DialogResult==DialogResult.Yes)
+                {
+                    if (conexao.Executar_sql(sql))
+                    {
+                        MessageBox.Show("Os dados foram excluido com sucesso!", "Mensagem de sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        Carregar_tabela();
+                    }
+
                 }
                 else
                 {
-                    MessageBox.Show("Erro ao excluir os dados informados", "Mensagem de erro...", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
                 }
+
             }
-            
+            else
+            {
+                MessageBox.Show("Erro ao excluir os dados informados", "Mensagem de erro...", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
         }
 
         private void btn_cadastrar_prod_Click(object sender, EventArgs e)
@@ -79,6 +100,7 @@ namespace TesteConexaoBanco
                 if (conexao.Executar_sql(sql))
                 {
                     MessageBox.Show("Os dados foram cadastrados com sucesso!", "Mensagem de sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Carregar_tabela();
                 }
                 else
                 {
@@ -87,18 +109,6 @@ namespace TesteConexaoBanco
             }
         }
 
-        private void text_codigo_prod_KeyPress(object sender, KeyPressEventArgs e)
-        {
-
-            string sql = "select from * tb_produto where prod_codigo =" + text_codigo_prod.Text;
-            if (e.KeyChar == (char)Keys.Enter)
-            {
-                DataTable dados = conexao.retorno_tabela(sql);
-                text_nome_prod.Text = dados.Rows[0]["prod_nome"].ToString();
-               text_descricao_prod.Text = dados.Rows[0]["prod_descricao"].ToString();
-                Cbx_descricao_prod.SelectedValue = dados.Rows[0]["prod_categoria"].ToString();
-                text_valor_prod.Text = dados.Rows[0]["prod_valor"].ToString();
-            }
-        }
+      
     }
 }

@@ -42,6 +42,7 @@
             this.btn_cadastrar_prod = new System.Windows.Forms.Button();
             this.btn_atualizar_prod = new System.Windows.Forms.Button();
             this.Dgv_dados = new System.Windows.Forms.DataGridView();
+            this.btn_gerar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_dados)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,7 +53,7 @@
             this.text_codigo_prod.Name = "text_codigo_prod";
             this.text_codigo_prod.Size = new System.Drawing.Size(94, 26);
             this.text_codigo_prod.TabIndex = 9;
-          
+            this.text_codigo_prod.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_codigo_prod_KeyPress);
             // 
             // label4
             // 
@@ -190,13 +191,27 @@
             this.Dgv_dados.Name = "Dgv_dados";
             this.Dgv_dados.Size = new System.Drawing.Size(741, 168);
             this.Dgv_dados.TabIndex = 21;
-       
+            // 
+            // btn_gerar
+            // 
+            this.btn_gerar.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btn_gerar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_gerar.Font = new System.Drawing.Font("Microsoft New Tai Lue", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_gerar.ForeColor = System.Drawing.SystemColors.Control;
+            this.btn_gerar.Location = new System.Drawing.Point(511, 351);
+            this.btn_gerar.Name = "btn_gerar";
+            this.btn_gerar.Size = new System.Drawing.Size(140, 39);
+            this.btn_gerar.TabIndex = 22;
+            this.btn_gerar.Text = "GERAR PDF";
+            this.btn_gerar.UseVisualStyleBackColor = false;
+            this.btn_gerar.Click += new System.EventHandler(this.btn_gerar_Click);
             // 
             // Tela_produto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(805, 584);
+            this.Controls.Add(this.btn_gerar);
             this.Controls.Add(this.Dgv_dados);
             this.Controls.Add(this.btn_atualizar_prod);
             this.Controls.Add(this.Btn_excluir_prod);
@@ -236,5 +251,6 @@
         private System.Windows.Forms.Button btn_cadastrar_prod;
         private System.Windows.Forms.Button btn_atualizar_prod;
         private System.Windows.Forms.DataGridView Dgv_dados;
+        private System.Windows.Forms.Button btn_gerar;
     }
 }

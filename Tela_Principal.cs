@@ -20,7 +20,7 @@ namespace TesteConexaoBanco
         
         private void Abrir_janela (Form janela_filha)
         {
-
+            
             tela_atual = janela_filha;
             janela_filha.TopLevel = false;
             janela_filha.FormBorderStyle = FormBorderStyle.None;

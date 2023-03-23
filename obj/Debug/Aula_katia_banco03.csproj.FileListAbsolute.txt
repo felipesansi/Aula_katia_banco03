@@ -68,3 +68,4 @@ C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub 
 C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\obj\Debug\Aula_katia_banco03.csproj.CopyComplete
 C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\obj\Debug\TesteConexaoBanco.exe
 C:\Users\Felipe\Desktop\Todas as pastas\Programação\Códigos copiados git-hub e outros\Aula_katia_banco03\obj\Debug\TesteConexaoBanco.pdb
+C:\Users\curso.ads2\Source\Repos\Aula_katia_banco03\bin\Debug\ZstdNet.dll
